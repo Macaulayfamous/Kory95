@@ -541,7 +541,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
               ),
               IconButton(
                 onPressed: () {
-                  callSeller('+2348149106125');
+                  callSeller(widget.productData['phoneNumber']);
                 },
                 icon: Icon(
                   CupertinoIcons.phone,
